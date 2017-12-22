@@ -28,7 +28,8 @@ To recreate my steps
   - This will ingest all the imdb files and create tables in postgres that are queryable
   - Allow several hours for this to run
     - It is a highly inefficient piece of code due to the horrible structure provided by IMDB
-
+- run `python download_data.py`
+  - This connects the IMDB data with the TMDB data and produces an excel file that can be used to generate the model
 
 ### Creating the model
 
