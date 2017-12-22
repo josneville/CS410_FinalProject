@@ -42,7 +42,7 @@ As an initial test, I wrote python code that split each plot into several words,
  - Trying different classifiers
    - After iterating through a few, I found that the Stachostic Gradient Descent performed the best
 
-[[https://i.imgur.com/ADxhZxc.png]]
+![Accuracy](https://i.imgur.com/ADxhZxc.png)
 
 After creating a model, I dumped the model into a file `model.pickle` which can be later retrieved and reapplied to new data
 
